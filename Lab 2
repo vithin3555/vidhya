@@ -1,1 +1,148 @@
+task1
+num=int(input("enter the number"))
+if num>0:
+   print("it is postive")
+else:
+    print("it is not positve")
 
+#task 2
+a=int(input("enter a number"))
+if a%5==0:
+    print("it is divisible by 5")
+else:
+    print("it is not divisible by 5")
+
+#task3
+age=int(input("enter your age"))
+if age>=18:
+    print("eligible for vote ")
+else:
+    print("not eligible for vote")
+
+#task 4
+num=int(input("enter a num"))
+if num%2==0:
+    print("number is even ")
+else:
+    print ("number is odd ")
+    
+#task 5
+a=int(input("enter a first num:"))
+b=int(input("enter  a second num:"))
+if a<b:
+    print("it is greater number")
+else:
+    print("it is not greater number ")
+
+#task 6
+year=int(input("enter a number"))
+if year%4==0:
+    print("it is leap year")
+else:
+    print("it is not leap year")
+
+#task 7
+a=int(input("enter  a first number"))
+b=int(input ("enter a secondnumber"))
+c=int(input("enter a third number"))
+if a>b and a>c:
+    print("a is largest number")
+elif b>a and b>c:
+    print("b is largest number")
+else:
+    print("c is largest number")
+
+#task 8
+mark=int(input("enter your mark"))
+if mark>=35 and mark<=45:
+    print("pass; grade c")
+elif mark>=46 and mark<=65:
+    print("grade b")
+elif mark>=66 and  mark<=85:
+    print("grade a")
+elif mark>=86 and mark<=99:
+    print("grade a+")
+else:
+    print("fail!")
+
+#task 9
+c=3.14
+a=int(input("enter a first number"))
+b=int(input("entre a second number"))
+if a==b:
+    print("square:",a**b)
+elif a!=b:
+    print("rectangle:",a*b)
+elif c!=b:
+    print("circle:",c*b**2)
+'''
+#task 10
+a=input("enter a character")
+if a in{'a','e','i','o','u'}:
+    print ("it is vowel")
+else:
+    print("constant") 
+#task 11
+num = int(input("Enter a number: "))
+
+if num > 0:
+    print("Number is positive")
+
+    if num % 2 == 0:
+        print("It is Even")
+    else:
+        print("It is Odd")
+
+else:
+    print("Number is not positive")
+   #task 12
+   username = input("Enter username: ")
+password = input("Enter password: ")
+
+if username == "admin":
+    if password == "1234":
+        print("Login successful")
+    else:
+        print("Wrong password")
+else:
+    print("Invalid username")
+   #task 13
+   num = int(input("Enter a number: "))
+
+if num % 3 == 0 and num % 7 == 0:
+    print("Number is divisible by both 3 and 7")
+else:
+    print("Number is not divisible by both 3 and 7")
+   #task 14
+   a = int(input("Enter side 1: "))
+b = int(input("Enter side 2: "))
+c = int(input("Enter side 3: "))
+
+if a == b:
+    if b == c:
+        print("Equilateral Triangle")
+    else:
+        print("Isosceles Triangle")
+
+else:
+    if a == c or b == c:
+        print("Isosceles Triangle")
+    else:
+        print("Scalene Triangle")
+       #task 15
+       m1 = int(input("Enter mark 1: "))
+m2 = int(input("Enter mark 2: "))
+m3 = int(input("Enter mark 3: "))
+
+if m1 >= 35 and m2 >= 35 and m3 >= 35:
+    print("Student Passed")
+
+    avg = (m1 + m2 + m3) / 3
+
+    if avg >= 75:
+        print("Distinction")
+    else:
+        print("No Distinction")
+
+else:
+    print("Student Failed")
