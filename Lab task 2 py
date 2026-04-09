@@ -1,0 +1,168 @@
+#1)check a number is a positive
+'''
+num=int(input("Enter a number :  "))
+
+if num>0:
+    print("It is a positive number")
+
+elif      num<0:
+    print("It is a negative number")
+
+elif     num==0:
+    print("It is Neutral number")
+
+else:
+    print("It is not a positive number")
+
+    '''
+
+#2)check a number div by 5
+
+'''
+
+num=int(input("Enter a number :     "))
+
+
+if  num % 5 ==0:
+    print("The number is divisible by 5")
+
+else  :
+    print("The number is not divisible by 5")
+
+'''
+
+#3)to check eligible to vote
+'''
+Age=int(input("Enter your age to check your are eligible to vote   :   "))
+
+
+
+if Age>=18:
+    print("You are eligible to vote")
+
+else :
+    print("You are not eligible to vote")
+
+'''
+
+#4)to check num is even or odd
+'''
+num=int(input("Enter a number  :  "))
+
+
+
+if     num%2==0:
+    print("It is a even number")
+
+else    :
+    print("It is a odd number")
+
+'''
+
+#5)find the largest of two numbers
+'''
+a=int(input("Enter a first number :  "))
+b=int(input("Enter a second number :  "))
+
+if a>b:
+    print("A greater than B")
+
+elif a==b:
+    print("Equal")
+
+else :
+    print("B is greater than A")
+
+
+'''
+
+#6)to check it is leap year or not
+'''
+year = int(input("Enter  year  :  "))
+
+if year%4==0:
+    print("It is leap year")
+
+else :
+    print("It is not leap year")
+
+'''
+
+#7)find the largest of three number
+
+'''
+a=int(input("Enter a first number :  "))
+b=int(input("Enter a second number :  "))
+c=int(input("Enter a 3rd number  : "))
+
+if  a>b  and a>c:
+    print("A is greater ")
+
+elif  b>a and b>c:
+    print("B is greater")
+else:
+    print("C is greater")
+
+'''
+
+#8)assign grades basded on marks
+'''
+m=int(input("Enter your mark :  "))
+
+if  m>=90 and m<=100:
+    print("O grade ")
+
+elif m>=50 and m<=89:
+    print("A grade")
+
+elif m>=35 and m<=49:
+    print("B grade")
+
+else :
+    print("Faiillllllllllllllllllllllllll")
+
+'''
+
+
+#9)to check  a chr is vowel or constant
+
+'''
+
+a=input("Enter a character            :            ")
+
+if a in  ['a','e','i','o','u','A','E','I','O','U' ] :
+    print("It is a vowel ")
+
+else :
+    print ("It is a constant")
+
+
+    '''
+#10)to create a simple calculator
+
+a = int (input("Enter a number   :   "))
+
+operator=input("Enter you operator  :  ")
+
+b=int(input("Enter a number   :  "))
+
+if operator=="+" :
+    print (a+b)
+
+elif operator=="-" :
+    print(a-b)
+
+elif  operator=="*"     :
+    print(a*b)
+
+elif operator=="/" :
+    print(a/b)
+
+elif operator=="//"  :
+    print(a//b)
+
+elif opeartor=="%"  :
+    print(a%b)
+
+else :
+    print("Invalid error")
